@@ -239,12 +239,12 @@ export default class ImagesUploader extends Component {
 								style={styles.notification ? {
 									...styles.notification,
 									...{
-										display: this.state.displayNotification ? 'block' : 'none',
+										display: this.state.displayNotification ? 'flex' : 'none',
 										backgroundColor: notificationBgColor,
 										color: notificationColor,
 									},
 								} : {
-									display: this.state.displayNotification ? 'block' : 'none',
+									display: this.state.displayNotification ? 'flex' : 'none',
 									backgroundColor: notificationBgColor,
 									color: notificationColor,
 								}}>
